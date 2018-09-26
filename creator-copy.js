@@ -20,3 +20,14 @@ let object = createMyObject();
 console.log(createMyObject());
 console.log(object.foo);
 console.log(object.sayHello());
+
+function updateObject(obj){
+  obj.foo = 'foo',
+  obj.bar = 'bar',
+  obj.bizz = 'bizz',
+  obj.bang = 'bang';
+  return obj;
+}
+const obj = {};
+console.log(updateObject(obj));
+
