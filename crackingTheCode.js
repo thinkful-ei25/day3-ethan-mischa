@@ -1,5 +1,4 @@
 'use strict';
-
 function decode(string){
   let decoded = ''; 
   const words = string.split(' ');
